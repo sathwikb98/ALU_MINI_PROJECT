@@ -1,0 +1,9 @@
+------------------------------------------------- 
+            FLOW CHART LOGIC                    
+-------------------------------------------------
+- Asynchronous reset initializes everything
+- Based on MODE:
+    - MODE = 1: Arithmetic → delay of 1-2 cycles
+    - MODE = 0: Logical    → delay of 1 cycle
+- CMD values (0–13) decide exact operation
+- Error flag set if unrecognized CMD
