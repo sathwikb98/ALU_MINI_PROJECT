@@ -112,9 +112,9 @@ always@(fetch_stimulus)
 task monitor ();
                 begin
                 `ifdef MUL
-                        repeat(4) @(posedge CLK);
+                      repeat(4) @(posedge CLK);
                 `else
-                        repeat(4) @(posedge CLK);
+                      repeat(3) @(posedge CLK);
                 `endif
                 #5 response_packet[packet_size-1:0]                      = curr_test_case;
                 response_packet[packet_size]                             = ERR;
