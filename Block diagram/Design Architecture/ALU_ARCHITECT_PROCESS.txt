@@ -1,0 +1,19 @@
+-------------------------------------------------
+# ARCHITECTURE 
+-------------------------------------------------
+- Core unit supports:
+    • Arithmetic Ops (ADD, SUB, CMP, INC/DEC, SIGNED OPS)
+    • Logical Ops (AND, OR, NOT, XOR, NAND, NOR)
+    • Shifter and Rotator (SHL, SHR, ROL, ROR)
+
+- Key Modules:
+    - CONTROL UNIT    : Manages mode switching, clock enables
+    - INSTRUCTION DEC : Decodes CMD and routes to correct block
+    - REGISTER BANK    : TEMP_A, TEMP_B, TEMP_RES, SIG_RES
+    - MUX              : Selects appropriate data path
+
+- Parameterized using:
+    WIDTH_OP, WIDTH_CMD, ROL_WIDTH
+
+- Outputs:
+    RES, ERR, OFLOW, COUT, G, L, E
