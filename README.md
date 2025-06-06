@@ -82,6 +82,7 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 | `CMD.vh`         | Macro definitions for command codes                                  |
 | `ALU_SELF_TB.v`  | Self-checking testbench with packets as 'stimulus'                   |
 | `stimulus.txt`   | Input vectors                                                        |
+| `result.txt`     | Generated result file by the testbench                               |
 | `README.md`      | This file                                                            |
 | `Block diagrams` | This contains design & testbench architecture and Flow chart         |  
 
