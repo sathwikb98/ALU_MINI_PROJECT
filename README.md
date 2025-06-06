@@ -25,6 +25,7 @@ The ALU operates on two operands (OPA, OPB) of configurable bit width (WIDTH_OP)
 The ALU uses a "4-bit CMD" input to select from various operations. Below is the list grouped by category:
 
 1. Arithmetic Operations (MODE = 1)
+
 | CMD | Operation    | Description                                |
 | --- | ------------ | ------------------------------------------ |
 | 0   | `ADD`        | Addition: `OPA + OPB`                      |
@@ -42,6 +43,7 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 | 12  | `SIGN_SUB`   | Signed Subtraction                         |
 
 2. Logical Operations (MODE = 0)
+
 | CMD | Operation | Description                   |
 | --- | --------- | ----------------------------- |
 | 0   | `AND`     | Bitwise AND                   |
@@ -73,6 +75,7 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 - E – Equal flag from CMP
 
 #File in the project :
+
 | File Name       | Description                          |
 | --------------- | -------------------------------------|
 | `ALU_DESIGN.v`  | Main ALU design file                 |
