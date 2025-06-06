@@ -1,0 +1,21 @@
+-------------------------------------------------
+           TESTBENCH ARCHITECTUR
+-------------------------------------------------
+• stimulus.txt → Contains test vector input fields
+
+• Driver:
+    - Reads from stimulus.txt
+    - Drives OPA, OPB, CMD, MODE, CIN
+
+• DUT:
+    - ALU implementation
+
+• Monitor:
+    - Captures RES, ERR, flags
+    - Sends outputs to results.txt
+
+• Scoreboard:
+    - Checks actual DUT result vs expected
+    - Flags mismatch if any
+
+• results.txt → Stores DUT output for debugging/validation
