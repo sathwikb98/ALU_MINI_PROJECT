@@ -1,4 +1,4 @@
-   -------------------------------------------------
+c   -------------------------------------------------
   |             ARCHITECTURE PROCESS               |
    -------------------------------------------------
 - Core unit supports:
@@ -8,7 +8,7 @@
 - Key Modules:
     • CONTROL UNIT          : Manages mode switching, clock enables
     • INSTRUCTION DECODER   : Decodes CMD and routes to correct block
-    • REGISTER BANK         : TEMP_A, TEMP_B, TEMP_RES, SIG_RES
+    • REGISTER BANK         : TEMP_A, TEMP_B, TEMP_RES, SIG_RES ect.
     • MUX                   : Selects appropriate data path
 
 - Parameterized using:
