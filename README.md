@@ -83,6 +83,6 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 | `TB_ALU.v`      | Testbench with packets handling      |
 | `stimulus.txt`  | Input vectors                        |
 | `README.md`     | This file                            |
-| `Block diagrams | This contains design & testbench architecture and Flow chart          |  
+| `Block diagrams` | This contains design & testbench architecture and Flow chart          |  
 
 
