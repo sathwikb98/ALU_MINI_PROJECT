@@ -74,7 +74,7 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 
 - E – Equal flag from CMP
 
-#File in the project :
+# File in the project :
 
 | File Name       | Description                          |
 | --------------- | -------------------------------------|
