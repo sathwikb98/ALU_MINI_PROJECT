@@ -89,6 +89,4 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 | `ALU_DESIGN_COVERAGE_USING_QUEST.jpg` | Coverage report DUT [inst_dut] of ALU_DESIGN           | 
 
 
--
-📌 This project aims to be educational and practically useful for RTL designers focusing on modular, pipelined digital systems. 
--
+📌 *Fully parameterized, file-driven ALU design with self-checking testbench — ready for integration and reuse.*
