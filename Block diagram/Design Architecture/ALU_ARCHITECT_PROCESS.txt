@@ -2,7 +2,7 @@ c   -------------------------------------------------
   |             ARCHITECTURE PROCESS               |
    -------------------------------------------------
 - Core unit supports:
-    • Arithmetic Ops -> (ADD, SUB, CMP, INC/DEC, SIGNED OPS)
+    • Arithmetic Ops -> (ADD, SUB, CMP, INC/DEC, SIGNED OPS ...ect)
     • Logical Ops -> (AND, OR, NOT, XOR, NAND, NOR) with Shifter and Rotator (SHL, SHR, ROL, ROR)
 
 - Key Modules:
