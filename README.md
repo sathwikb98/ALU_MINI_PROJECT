@@ -6,7 +6,7 @@ This project is a custom Arithmetic Logic Unit (ALU) developed as part of an int
 
 The ALU operates on two operands (OPA, OPB) of configurable bit width (WIDTH_OP), and supports both combinational and pipelined behaviors based on control signals. It also includes status flags such as ERR, OFLOW, COUT, G, L, and E to provide diagnostic and comparison outputs.
 
-#Objective :
+# Objective :
 - To design and implement a parameterizable ALU in Verilog.
 
 - To support a wide range of operations (arithmetic, logical, shift, and rotation).
