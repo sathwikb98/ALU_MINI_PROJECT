@@ -88,5 +88,6 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 | `ALU_SIMULATION_RESULT.jgp` | GUI of ALU_DESIGN using Questa sim                               |
 | `ALU_DESIGN_COVERAGE_USING_QUEST.jpg` | Coverage report DUT [inst_dut] of ALU_DESIGN           | 
 
+--------------------------------------------------------------------------------------------------
 
 📌 *Fully parameterized, file-driven ALU design with self-checking testbench — ready for integration and reuse.*
