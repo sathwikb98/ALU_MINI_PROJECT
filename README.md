@@ -76,14 +76,15 @@ The ALU uses a "4-bit CMD" input to select from various operations. Below is the
 
 # File in the project :
 
-| File Name        | Description                                                          |
-| ---------------  | ---------------------------------------------------------------------|
-| `ALU_DESIGN.v`   | Main ALU design file                                                 |
-| `CMD.vh`         | Macro definitions for command codes                                  |
-| `ALU_SELF_TB.v`  | Self-checking testbench with packets as 'stimulus'                   |
-| `stimulus.txt`   | Input vectors                                                        |
-| `result.txt`     | Generated result file by the testbench                               |
-| `README.md`      | This file                                                            |
-| `Block diagrams` | This contains design & testbench architecture and Flow chart         |  
-
+| File Name               | Description                                                          |
+| ----------------------- | ---------------------------------------------------------------------|
+| `ALU_DESIGN.v`          | Main ALU design file                                                 |
+| `CMD.vh`                | Macro definitions for command codes                                  |
+| `ALU_SELF_TB.v`         | Self-checking testbench with packets as 'stimulus'                   |
+| `stimulus.txt`          | Input vectors                                                        |
+| `result.txt`            | Generated result file by the testbench                               |
+| `README.md`             | This file                                                            |
+| `Block diagrams`        | This contains design & testbench architecture and Flow chart         |  
+| `ALU_SIMULATION_RESULT.jgp` | GUI of ALU_DESIGN using Questa sim                               |
+| `ALU_DESIGN_COVERAGE_USING_QUEST.jpg` | Coverage report DUT [inst_dut] of ALU_DESIGN           | 
 
